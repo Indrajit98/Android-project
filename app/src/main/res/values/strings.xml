@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Donor_Hub</string>
+    <string name="Reg_title">Your Details will be public to the community by
+        using this app you also need to pledge to be a donor to help those who are in need.</string>
+    <string name="sign_up"><u>Sign Up</u></string>
+    <string name="MakeRequest">Write a heart felt message and add an image for the community, somebody will defintely help you if possible</string>
+    <string name="choose_image"><u>Choose Image</u></string>
+    <string name="post_request">Post Request</string>
+    <string name="message">Message</string>
+    <string name="make_request"><u>Make Request</u></string>
+    <string name="choose_location">Choose Location</string>
+</resources>

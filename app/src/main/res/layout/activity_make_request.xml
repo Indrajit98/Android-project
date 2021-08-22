@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="Activites.MakeRequestActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/MakeRequest"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:padding="10dp"
+            />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_background"
+            android:layout_margin="8dp">
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:minLines="6"
+            android:maxLines="10"
+            android:hint="message"
+            android:textAlignment="gravity"
+            android:background="@null"
+            android:cursorVisible="false"
+            android:gravity="top"
+            android:padding="10dp"
+            android:textColorHint="@android:color/black"
+            android:importantForAutofill="no" />
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+        <ImageView
+            android:id="@+id/post_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_baseline_image_24"
+            android:padding="8dp"
+            />
+        <TextView
+            android:id="@+id/choose_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/choose_image"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textAlignment="gravity"
+            android:gravity="center"
+            />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:text="post_request"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/button_bg"
+            android:layout_margin="30dp"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>
